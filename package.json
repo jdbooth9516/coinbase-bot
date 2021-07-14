@@ -1,0 +1,24 @@
+{
+  "name": "coinbase-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Jeremiah Booth",
+  "license": "ISC",
+  "dependencies": {
+    "coinbase-pro": "^0.9.0",
+    "concurrently": "^6.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "websocket": "^1.0.34"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

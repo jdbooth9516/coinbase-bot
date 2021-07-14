@@ -1,0 +1,28 @@
+Passphrase : msoil7lang
+API Secret: 6PfqQSnHZKDbOuuSZqdCX72PzlGQ9rPJO2aiD//L5mmHvty1DyATKOFpexrICaNAURVrdylWDUwGp36rgMBxog==
+key: 1327ce3508bcea40d16015b8ff076cff
+
+4ab9854763e17c84276ea4b3db5fc456
+u12l3vw0l4e
+cA9SCK9ZwYri9pOFMJGl2p5lQu+FQjKm7J0Ph+akDoRWzO3FeCVWtmu6tc/bui/rzJFA2JllhaZet9OI8t9ctA==
+
+
+sandbox:
+kwe1b2gilt
+jt9uuSpdnHvddSQSoOBecWcf08Db80ITVtZNTZM5AvcPeHFsBWidmJhfywEIQoe9bszVBd5riH2ETrdpGvfrjg==
+cfcc1a857cc3c1d66d1dfb457759a1f9
+
+
+from server.js:
+const websocket = new CoinbasePro.WebsocketClient(
+  ["BTC-USD"],
+  // "wss://ws-feed-public.sandbox.pro.coinbase.com",
+  // {
+  //   key: "cfcc1a857cc3c1d66d1dfb457759a1f9",
+  //   secret:
+  //     "jt9uuSpdnHvddSQSoOBecWcf08Db80ITVtZNTZM5AvcPeHFsBWidmJhfywEIQoe9bszVBd5riH2ETrdpGvfrjg",
+  //   passphrase: "kwe1b2gilt",
+  // },
+  // { channels: ["full", "level2"] }
+);
+// websocket.subscribe({ product_ids: ["BTC-USD"], channels: ["status", "user"] });
